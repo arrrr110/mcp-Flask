@@ -1,0 +1,173 @@
+openapi: "3.0.3"
+info:
+  title: Flask Framework API Reference
+  description: |
+    Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.
+    
+    ⚠️ 安全提示：建议在生产环境中启用 `SESSION_COOKIE_SECURE=True`（来自路由安全审计）
+  version: "2.0.0"
+  contact:
+    name: Flask Team
+    url: https://flask.palletsprojects.com/
+
+servers:
+  - url: http://localhost:5000
+    description: Local development server
+  - url: https://{host}/
+    description: Production server
+    variables:
+      host:
+        default: example.com
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+    SessionAuth:
+      type: apiKey
+      in: cookie
+      name: session
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+        status_code:
+          type: integer
+
+    Response:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: [success, error]
+        data:
+          type: object
+        message:
+          type: string
+
+    RequestContext:
+      type: object
+      properties:
+        method:
+          type: string
+          description: HTTP method (GET, POST, PUT, DELETE, etc.)
+        path:
+          type: string
+          description: Request path
+        args:
+          type: object
+          description: Query parameters
+        form:
+          type: object
+          description: Form data
+        json:
+          type: object
+          description: JSON request body
+        headers:
+          type: object
+          description: Request headers
+
+    AppConfig:
+      type: object
+      properties:
+        DEBUG:
+          type: boolean
+          description: Enable debug mode
+        SECRET_KEY:
+          type: string
+          description: Secret key for session management
+        MAX_CONTENT_LENGTH:
+          type: integer
+          description: Maximum allowed request size in bytes
+        SESSION_COOKIE_SECURE:
+          type: boolean
+          description: Only send cookie over HTTPS
+
+paths:
+  /:
+    get:
+      summary: Root endpoint
+      description: Default route handler
+      responses:
+        '200':
+          description: Successful response
+          content:
+            text/html:
+              schema:
+                type: string
+
+  /static/{path}:
+    get:
+      summary: Static file serving
+      description: Serve static files from the static folder
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: Path to static file
+          schema:
+            type: string
+      responses:
+        '200':
+          description: File content
+        '404':
+          description: File not found
+
+  /health:
+    get:
+      summary: Health check endpoint
+      description: Check application health status
+      responses:
+        '200':
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response'
+
+  /api/info:
+    get:
+      summary: Application information
+      description: Get Flask application configuration and context info
+      responses:
+        '200':
+          description: Application info
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  debug:
+                    type: boolean
+                  version:
+                    type: string
+
+security:
+  - SessionAuth: []
+
+tags:
+  - name: core
+    description: Core Flask functionality
+  - name: routing
+    description: Route management
+  - name: request
+    description: Request handling
+  - name: response
+    description: Response handling
+  - name: session
+    description: Session management
+
+x-framework-info:
+  name: Flask
+  version: 2.0.0+
+  language: Python
+  license: BSD-3-Clause
+  documentation: https://flask.palletsprojects.com/

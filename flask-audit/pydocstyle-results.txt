@@ -1,0 +1,1126 @@
+src/flask/logging.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/logging.py:17 in public function `wsgi_errors_stream`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/logging.py:17 in public function `wsgi_errors_stream`:
+        D400: First line should end with a period (not 't')
+src/flask/logging.py:32 in public function `has_level_handler`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/logging.py:32 in public function `has_level_handler`:
+        D400: First line should end with a period (not 'e')
+src/flask/signals.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/sessions.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/sessions.py:73 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/sessions.py:84 in public class `NullSession`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:84 in public class `NullSession`:
+        D400: First line should end with a period (not 't')
+src/flask/sessions.py:101 in public class `SessionInterface`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:101 in public class `SessionInterface`:
+        D400: First line should end with a period (not 'e')
+src/flask/sessions.py:151 in public method `make_null_session`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:151 in public method `make_null_session`:
+        D400: First line should end with a period (not 'e')
+src/flask/sessions.py:151 in public method `make_null_session`:
+        D401: First line should be in imperative mood (perhaps 'Create', not 'Creates')
+src/flask/sessions.py:163 in public method `is_null_session`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:163 in public method `is_null_session`:
+        D400: First line should end with a period (not 'e')
+src/flask/sessions.py:163 in public method `is_null_session`:
+        D401: First line should be in imperative mood (perhaps 'Check', not 'Checks')
+src/flask/sessions.py:172 in public method `get_cookie_name`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/sessions.py:176 in public method `get_cookie_domain`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:176 in public method `get_cookie_domain`:
+        D400: First line should end with a period (not ',')
+src/flask/sessions.py:176 in public method `get_cookie_domain`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/sessions.py:188 in public method `get_cookie_path`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:188 in public method `get_cookie_path`:
+        D400: First line should end with a period (not 'e')
+src/flask/sessions.py:188 in public method `get_cookie_path`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/sessions.py:196 in public method `get_cookie_httponly`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:196 in public method `get_cookie_httponly`:
+        D400: First line should end with a period (not 's')
+src/flask/sessions.py:196 in public method `get_cookie_httponly`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/sessions.py:203 in public method `get_cookie_secure`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:203 in public method `get_cookie_secure`:
+        D400: First line should end with a period (not 'y')
+src/flask/sessions.py:203 in public method `get_cookie_secure`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/sessions.py:209 in public method `get_cookie_samesite`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:209 in public method `get_cookie_samesite`:
+        D400: First line should end with a period (not 'e')
+src/flask/sessions.py:216 in public method `get_cookie_partitioned`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:216 in public method `get_cookie_partitioned`:
+        D400: First line should end with a period (not 's')
+src/flask/sessions.py:216 in public method `get_cookie_partitioned`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/sessions.py:224 in public method `get_expiration_time`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:224 in public method `get_expiration_time`:
+        D400: First line should end with a period (not 'n')
+src/flask/sessions.py:224 in public method `get_expiration_time`:
+        D401: First line should be in imperative mood; try rephrasing (found 'A')
+src/flask/sessions.py:234 in public method `should_set_cookie`:
+        D202: No blank lines allowed after function docstring (found 1)
+src/flask/sessions.py:234 in public method `should_set_cookie`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:234 in public method `should_set_cookie`:
+        D400: First line should end with a period (not 'r')
+src/flask/sessions.py:234 in public method `should_set_cookie`:
+        D401: First line should be in imperative mood (perhaps 'Use', not 'Used')
+src/flask/sessions.py:250 in public method `open_session`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:250 in public method `open_session`:
+        D400: First line should end with a period (not 'r')
+src/flask/sessions.py:250 in public method `open_session`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/sessions.py:266 in public method `save_session`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:266 in public method `save_session`:
+        D400: First line should end with a period (not 'g')
+src/flask/sessions.py:266 in public method `save_session`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/sessions.py:277 in private function `_lazy_sha1`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:277 in private function `_lazy_sha1`:
+        D400: First line should end with a period (not 'e')
+src/flask/sessions.py:285 in public class `SecureCookieSessionInterface`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sessions.py:285 in public class `SecureCookieSessionInterface`:
+        D400: First line should end with a period (not 's')
+src/flask/sessions.py:303 in public method `get_signing_serializer`:
+        D102: Missing docstring in public method
+src/flask/sessions.py:323 in public method `open_session`:
+        D102: Missing docstring in public method
+src/flask/sessions.py:337 in public method `save_session`:
+        D102: Missing docstring in public method
+src/flask/config.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/config.py:21 in public class `ConfigAttribute`:
+        D400: First line should end with a period (not 'g')
+src/flask/config.py:23 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/config.py:30 in public method `__get__`:
+        D105: Missing docstring in magic method
+src/flask/config.py:33 in public method `__get__`:
+        D105: Missing docstring in magic method
+src/flask/config.py:35 in public method `__get__`:
+        D105: Missing docstring in magic method
+src/flask/config.py:46 in public method `__set__`:
+        D105: Missing docstring in magic method
+src/flask/config.py:51 in public class `Config`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:51 in public class `Config`:
+        D400: First line should end with a period (not 's')
+src/flask/config.py:94 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/config.py:103 in public method `from_envvar`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:103 in public method `from_envvar`:
+        D400: First line should end with a period (not 'o')
+src/flask/config.py:103 in public method `from_envvar`:
+        D401: First line should be in imperative mood (perhaps 'Load', not 'Loads')
+src/flask/config.py:129 in public method `from_prefixed_env`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:129 in public method `from_prefixed_env`:
+        D400: First line should end with a period (not ',')
+src/flask/config.py:190 in public method `from_pyfile`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:190 in public method `from_pyfile`:
+        D400: First line should end with a period (not 'n')
+src/flask/config.py:190 in public method `from_pyfile`:
+        D401: First line should be in imperative mood (perhaps 'Update', not 'Updates')
+src/flask/config.py:219 in public method `from_object`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:219 in public method `from_object`:
+        D400: First line should end with a period (not 'e')
+src/flask/config.py:219 in public method `from_object`:
+        D401: First line should be in imperative mood (perhaps 'Update', not 'Updates')
+src/flask/config.py:263 in public method `from_file`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:263 in public method `from_file`:
+        D400: First line should end with a period (not 'd')
+src/flask/config.py:307 in public method `from_mapping`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:307 in public method `from_mapping`:
+        D400: First line should end with a period (not 'h')
+src/flask/config.py:307 in public method `from_mapping`:
+        D401: First line should be in imperative mood (perhaps 'Update', not 'Updates')
+src/flask/config.py:326 in public method `get_namespace`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/config.py:326 in public method `get_namespace`:
+        D400: First line should end with a period (not 's')
+src/flask/config.py:326 in public method `get_namespace`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/config.py:366 in public method `__repr__`:
+        D105: Missing docstring in magic method
+src/flask/templating.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/templating.py:22 in private function `_default_template_ctx_processor`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/templating.py:22 in private function `_default_template_ctx_processor`:
+        D400: First line should end with a period (not '`')
+src/flask/templating.py:22 in private function `_default_template_ctx_processor`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Default')
+src/flask/templating.py:37 in public class `Environment`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/templating.py:37 in public class `Environment`:
+        D400: First line should end with a period (not 'l')
+src/flask/templating.py:42 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/templating.py:50 in public class `DispatchingJinjaLoader`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/templating.py:50 in public class `DispatchingJinjaLoader`:
+        D400: First line should end with a period (not 'l')
+src/flask/templating.py:54 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/templating.py:57 in public method `get_source`:
+        D102: Missing docstring in public method
+src/flask/templating.py:108 in public method `list_templates`:
+        D102: Missing docstring in public method
+src/flask/templating.py:152 in public function `render_template_string`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/templating.py:152 in public function `render_template_string`:
+        D400: First line should end with a period (not 'n')
+src/flask/templating.py:185 in public function `stream_template`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/templating.py:201 in public function `stream_template_string`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/templating.py:201 in public function `stream_template_string`:
+        D400: First line should end with a period (not 'n')
+src/flask/globals.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/globals.py:17 in public class `ProxyMixin`:
+        D101: Missing docstring in public class
+src/flask/globals.py:22 in public class `FlaskProxy`:
+        D101: Missing docstring in public class
+src/flask/globals.py:24 in public class `AppContextProxy`:
+        D101: Missing docstring in public class
+src/flask/globals.py:28 in public class `RequestProxy`:
+        D101: Missing docstring in public class
+src/flask/globals.py:30 in public class `SessionMixinProxy`:
+        D101: Missing docstring in public class
+src/flask/__init__.py:1 at module level:
+        D104: Missing docstring in public package
+src/flask/blueprints.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/blueprints.py:18 in public class `Blueprint`:
+        D101: Missing docstring in public class
+src/flask/blueprints.py:19 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/blueprints.py:56 in public method `get_send_file_max_age`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/blueprints.py:56 in public method `get_send_file_max_age`:
+        D400: First line should end with a period (not 'e')
+src/flask/blueprints.py:56 in public method `get_send_file_max_age`:
+        D401: First line should be in imperative mood (perhaps 'Use', not 'Used')
+src/flask/blueprints.py:83 in public method `send_static_file`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/blueprints.py:83 in public method `send_static_file`:
+        D400: First line should end with a period (not 'm')
+src/flask/blueprints.py:83 in public method `send_static_file`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/blueprints.py:107 in public method `open_resource`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/blueprints.py:107 in public method `open_resource`:
+        D400: First line should end with a period (not 'e')
+src/flask/cli.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/cli.py:42 in public function `find_best_app`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:42 in public function `find_best_app`:
+        D400: First line should end with a period (not 'e')
+src/flask/cli.py:95 in private function `_called_with_wrong_args`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:95 in private function `_called_with_wrong_args`:
+        D400: First line should end with a period (not 'e')
+src/flask/cli.py:121 in public function `find_app_by_string`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:121 in public function `find_app_by_string`:
+        D400: First line should end with a period (not 'l')
+src/flask/cli.py:201 in public function `prepare_import`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:201 in public function `prepare_import`:
+        D400: First line should end with a period (not 't')
+src/flask/cli.py:230 in public function `locate_app`:
+        D103: Missing docstring in public function
+src/flask/cli.py:236 in public function `locate_app`:
+        D103: Missing docstring in public function
+src/flask/cli.py:241 in public function `locate_app`:
+        D103: Missing docstring in public function
+src/flask/cli.py:267 in public function `get_version`:
+        D103: Missing docstring in public function
+src/flask/cli.py:294 in public class `ScriptInfo`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:294 in public class `ScriptInfo`:
+        D400: First line should end with a period (not 't')
+src/flask/cli.py:305 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/cli.py:334 in public method `load_app`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:334 in public method `load_app`:
+        D400: First line should end with a period (not 'g')
+src/flask/cli.py:334 in public method `load_app`:
+        D401: First line should be in imperative mood (perhaps 'Load', not 'Loads')
+src/flask/cli.py:381 in public function `with_appcontext`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:381 in public function `with_appcontext`:
+        D400: First line should end with a period (not 'e')
+src/flask/cli.py:381 in public function `with_appcontext`:
+        D401: First line should be in imperative mood (perhaps 'Wrap', not 'Wraps')
+src/flask/cli.py:406 in public class `AppGroup`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:406 in public class `AppGroup`:
+        D400: First line should end with a period (not 't')
+src/flask/cli.py:416 in public method `command`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:416 in public method `command`:
+        D400: First line should end with a period (not 'r')
+src/flask/cli.py:416 in public method `command`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/cli.py:432 in public method `group`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:432 in public method `group`:
+        D400: First line should end with a period (not 'r')
+src/flask/cli.py:432 in public method `group`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/cli.py:532 in public class `FlaskGroup`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:532 in public class `FlaskGroup`:
+        D400: First line should end with a period (not 's')
+src/flask/cli.py:563 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/cli.py:609 in public method `get_command`:
+        D102: Missing docstring in public method
+src/flask/cli.py:636 in public method `list_commands`:
+        D102: Missing docstring in public method
+src/flask/cli.py:657 in public method `make_context`:
+        D102: Missing docstring in public method
+src/flask/cli.py:678 in public method `parse_args`:
+        D102: Missing docstring in public method
+src/flask/cli.py:692 in private function `_path_is_ancestor`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:692 in private function `_path_is_ancestor`:
+        D209: Multi-line docstring closing quotes should be on a separate line
+src/flask/cli.py:692 in private function `_path_is_ancestor`:
+        D400: First line should end with a period (not 't')
+src/flask/cli.py:701 in public function `load_dotenv`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:701 in public function `load_dotenv`:
+        D400: First line should end with a period (not 's')
+src/flask/cli.py:767 in public function `show_server_banner`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:767 in public function `show_server_banner`:
+        D400: First line should end with a period (not ',')
+src/flask/cli.py:781 in public class `CertParamType`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:781 in public class `CertParamType`:
+        D400: First line should end with a period (not 'n')
+src/flask/cli.py:788 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/cli.py:791 in public method `convert`:
+        D102: Missing docstring in public method
+src/flask/cli.py:829 in private function `_validate_key`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:829 in private function `_validate_key`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/cli.py:868 in public class `SeparatedPathType`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:868 in public class `SeparatedPathType`:
+        D400: First line should end with a period (not 'e')
+src/flask/cli.py:873 in public method `convert`:
+        D102: Missing docstring in public method
+src/flask/cli.py:1002 in public function `shell_command`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/cli.py:1002 in public function `shell_command`:
+        D400: First line should end with a period (not 'n')
+src/flask/cli.py:1122 in public function `main`:
+        D103: Missing docstring in public function
+src/flask/wrappers.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/wrappers.py:19 in public class `Request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/wrappers.py:19 in public class `Request`:
+        D400: First line should end with a period (not 'e')
+src/flask/wrappers.py:61 in public method `max_content_length`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/wrappers.py:61 in public method `max_content_length`:
+        D400: First line should end with a period (not 'f')
+src/flask/wrappers.py:94 in public method `max_form_memory_size`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/wrappers.py:94 in public method `max_form_memory_size`:
+        D400: First line should end with a period (not 'a')
+src/flask/wrappers.py:121 in public method `max_form_parts`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/wrappers.py:121 in public method `max_form_parts`:
+        D400: First line should end with a period (not 'a')
+src/flask/wrappers.py:121 in public method `max_form_parts`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/wrappers.py:182 in public method `blueprints`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/wrappers.py:182 in public method `blueprints`:
+        D400: First line should end with a period (not 'h')
+src/flask/wrappers.py:212 in public method `on_json_loading_failed`:
+        D102: Missing docstring in public method
+src/flask/wrappers.py:223 in public class `Response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/wrappers.py:223 in public class `Response`:
+        D400: First line should end with a period (not 'e')
+src/flask/app.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/app.py:85 in public function `remove_ctx`:
+        D103: Missing docstring in public function
+src/flask/app.py:97 in public function `add_ctx`:
+        D103: Missing docstring in public function
+src/flask/app.py:110 in public class `Flask`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:110 in public class `Flask`:
+        D400: First line should end with a period (not 'l')
+src/flask/app.py:254 in public method `__init_subclass__`:
+        D105: Missing docstring in magic method
+src/flask/app.py:310 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/app.py:366 in public method `get_send_file_max_age`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:366 in public method `get_send_file_max_age`:
+        D400: First line should end with a period (not 'e')
+src/flask/app.py:366 in public method `get_send_file_max_age`:
+        D401: First line should be in imperative mood (perhaps 'Use', not 'Used')
+src/flask/app.py:393 in public method `send_static_file`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:393 in public method `send_static_file`:
+        D400: First line should end with a period (not 'm')
+src/flask/app.py:393 in public method `send_static_file`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/app.py:450 in public method `open_instance_resource`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:450 in public method `open_instance_resource`:
+        D400: First line should end with a period (not 'r')
+src/flask/app.py:470 in public method `create_jinja_environment`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:470 in public method `create_jinja_environment`:
+        D400: First line should end with a period (not '`')
+src/flask/app.py:510 in public method `create_url_adapter`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:510 in public method `create_url_adapter`:
+        D400: First line should end with a period (not 'r')
+src/flask/app.py:510 in public method `create_url_adapter`:
+        D401: First line should be in imperative mood (perhaps 'Create', not 'Creates')
+src/flask/app.py:593 in public method `update_template_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:621 in public method `make_shell_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:621 in public method `make_shell_context`:
+        D400: First line should end with a period (not 's')
+src/flask/app.py:621 in public method `make_shell_context`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/app.py:640 in public method `run`:
+        D401: First line should be in imperative mood (perhaps 'Run', not 'Runs')
+src/flask/app.py:756 in public method `test_client`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:756 in public method `test_client`:
+        D400: First line should end with a period (not 'n')
+src/flask/app.py:814 in public method `test_cli_runner`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:833 in public method `handle_http_exception`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:833 in public method `handle_http_exception`:
+        D400: First line should end with a period (not 'e')
+src/flask/app.py:833 in public method `handle_http_exception`:
+        D401: First line should be in imperative mood (perhaps 'Handle', not 'Handles')
+src/flask/app.py:868 in public method `handle_user_exception`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:868 in public method `handle_user_exception`:
+        D400: First line should end with a period (not 't')
+src/flask/app.py:868 in public method `handle_user_exception`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/app.py:898 in public method `handle_exception`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:898 in public method `handle_exception`:
+        D400: First line should end with a period (not 'r')
+src/flask/app.py:955 in public method `log_exception`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:955 in public method `log_exception`:
+        D400: First line should end with a period (not '`')
+src/flask/app.py:955 in public method `log_exception`:
+        D401: First line should be in imperative mood (perhaps 'Log', not 'Logs')
+src/flask/app.py:967 in public method `dispatch_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:967 in public method `dispatch_request`:
+        D400: First line should end with a period (not 'e')
+src/flask/app.py:967 in public method `dispatch_request`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Does')
+src/flask/app.py:993 in public method `full_dispatch_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:993 in public method `full_dispatch_request`:
+        D400: First line should end with a period (not 't')
+src/flask/app.py:1027 in public method `finalize_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1027 in public method `finalize_request`:
+        D400: First line should end with a period (not 's')
+src/flask/app.py:1054 in public method `make_default_options_response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1054 in public method `make_default_options_response`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/app.py:1066 in public method `ensure_sync`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1225 in public method `make_response`:
+        D202: No blank lines allowed after function docstring (found 1)
+src/flask/app.py:1225 in public method `make_response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1225 in public method `make_response`:
+        D400: First line should end with a period (not 'f')
+src/flask/app.py:1367 in public method `preprocess_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1367 in public method `preprocess_request`:
+        D400: First line should end with a period (not 's')
+src/flask/app.py:1367 in public method `preprocess_request`:
+        D401: First line should be in imperative mood (perhaps 'Call', not 'Called')
+src/flask/app.py:1395 in public method `process_response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1395 in public method `process_response`:
+        D400: First line should end with a period (not 't')
+src/flask/app.py:1423 in public method `do_teardown_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1423 in public method `do_teardown_request`:
+        D400: First line should end with a period (not ',')
+src/flask/app.py:1423 in public method `do_teardown_request`:
+        D401: First line should be in imperative mood (perhaps 'Call', not 'Called')
+src/flask/app.py:1456 in public method `do_teardown_appcontext`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1456 in public method `do_teardown_appcontext`:
+        D400: First line should end with a period (not 'y')
+src/flask/app.py:1456 in public method `do_teardown_appcontext`:
+        D401: First line should be in imperative mood (perhaps 'Call', not 'Called')
+src/flask/app.py:1482 in public method `app_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1482 in public method `app_context`:
+        D400: First line should end with a period (not ',')
+src/flask/app.py:1502 in public method `request_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1502 in public method `request_context`:
+        D400: First line should end with a period (not 'g')
+src/flask/app.py:1518 in public method `test_request_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1518 in public method `test_request_context`:
+        D400: First line should end with a period (not 'm')
+src/flask/app.py:1569 in public method `wsgi_app`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1569 in public method `wsgi_app`:
+        D400: First line should end with a period (not 'n')
+src/flask/app.py:1569 in public method `wsgi_app`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/app.py:1621 in public method `__call__`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/app.py:1621 in public method `__call__`:
+        D400: First line should end with a period (not 'e')
+src/flask/app.py:1621 in public method `__call__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/debughelpers.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/debughelpers.py:18 in public class `UnexpectedUnicodeError`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/debughelpers.py:18 in public class `UnexpectedUnicodeError`:
+        D400: First line should end with a period (not 'r')
+src/flask/debughelpers.py:24 in public class `DebugFilesKeyError`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/debughelpers.py:24 in public class `DebugFilesKeyError`:
+        D400: First line should end with a period (not 'n')
+src/flask/debughelpers.py:28 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/debughelpers.py:46 in public method `__str__`:
+        D105: Missing docstring in magic method
+src/flask/debughelpers.py:51 in public class `FormDataRoutingRedirect`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/debughelpers.py:51 in public class `FormDataRoutingRedirect`:
+        D400: First line should end with a period (not 't')
+src/flask/debughelpers.py:57 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/debughelpers.py:82 in public function `attach_enctype_error_multidict`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/debughelpers.py:82 in public function `attach_enctype_error_multidict`:
+        D400: First line should end with a period (not 'r')
+src/flask/debughelpers.py:135 in public function `explain_template_loading_attempts`:
+        D400: First line should end with a period (not 'd')
+src/flask/debughelpers.py:135 in public function `explain_template_loading_attempts`:
+        D401: First line should be in imperative mood; try rephrasing (found 'This')
+src/flask/ctx.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/ctx.py:31 in private class `_AppCtxGlobals`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:31 in private class `_AppCtxGlobals`:
+        D400: First line should end with a period (not 'n')
+src/flask/ctx.py:69 in private method `get`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:69 in private method `get`:
+        D400: First line should end with a period (not 'e')
+src/flask/ctx.py:94 in private method `setdefault`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:94 in private method `setdefault`:
+        D400: First line should end with a period (not 'e')
+src/flask/ctx.py:121 in public function `after_this_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:121 in public function `after_this_request`:
+        D400: First line should end with a period (not 'e')
+src/flask/ctx.py:155 in public function `copy_current_request_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:155 in public function `copy_current_request_context`:
+        D400: First line should end with a period (not 'n')
+src/flask/ctx.py:236 in public function `has_app_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:236 in public function `has_app_context`:
+        D400: First line should end with a period (not '`')
+src/flask/ctx.py:261 in public class `AppContext`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:261 in public class `AppContext`:
+        D400: First line should end with a period (not 't')
+src/flask/ctx.py:300 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/ctx.py:356 in public method `copy`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:356 in public method `copy`:
+        D400: First line should end with a period (not 'e')
+src/flask/ctx.py:372 in public method `request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:372 in public method `request`:
+        D400: First line should end with a period (not 'h')
+src/flask/ctx.py:397 in public method `session`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:397 in public method `session`:
+        D400: First line should end with a period (not 'h')
+src/flask/ctx.py:406 in public method `match_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:406 in public method `match_request`:
+        D400: First line should end with a period (not 'd')
+src/flask/ctx.py:417 in public method `push`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:417 in public method `push`:
+        D400: First line should end with a period (not 'a')
+src/flask/ctx.py:447 in public method `pop`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/ctx.py:447 in public method `pop`:
+        D400: First line should end with a period (not 'n')
+src/flask/ctx.py:506 in public method `__enter__`:
+        D105: Missing docstring in magic method
+src/flask/ctx.py:510 in public method `__exit__`:
+        D105: Missing docstring in magic method
+src/flask/ctx.py:518 in public method `__repr__`:
+        D105: Missing docstring in magic method
+src/flask/typing.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/testing.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/testing.py:28 in public class `EnvironBuilder`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/testing.py:28 in public class `EnvironBuilder`:
+        D400: First line should end with a period (not 'e')
+src/flask/testing.py:49 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/testing.py:110 in public class `FlaskClient`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/testing.py:110 in public class `FlaskClient`:
+        D400: First line should end with a period (not 'r')
+src/flask/testing.py:125 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/testing.py:139 in public method `session_transaction`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/testing.py:139 in public method `session_transaction`:
+        D400: First line should end with a period (not 'a')
+src/flask/testing.py:204 in public method `open`:
+        D102: Missing docstring in public method
+src/flask/testing.py:249 in public method `__enter__`:
+        D105: Missing docstring in magic method
+src/flask/testing.py:255 in public method `__exit__`:
+        D105: Missing docstring in magic method
+src/flask/testing.py:266 in public class `FlaskCliRunner`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/testing.py:266 in public class `FlaskCliRunner`:
+        D400: First line should end with a period (not 's')
+src/flask/testing.py:271 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/testing.py:278 in public method `invoke`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/testing.py:278 in public method `invoke`:
+        D400: First line should end with a period (not 'e')
+src/flask/testing.py:278 in public method `invoke`:
+        D401: First line should be in imperative mood (perhaps 'Invoke', not 'Invokes')
+src/flask/helpers.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/helpers.py:29 in public function `get_debug_flag`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:29 in public function `get_debug_flag`:
+        D400: First line should end with a period (not 'e')
+src/flask/helpers.py:37 in public function `get_load_dotenv`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:37 in public function `get_load_dotenv`:
+        D400: First line should end with a period (not 'y')
+src/flask/helpers.py:52 in public function `stream_with_context`:
+        D103: Missing docstring in public function
+src/flask/helpers.py:58 in public function `stream_with_context`:
+        D103: Missing docstring in public function
+src/flask/helpers.py:66 in public function `stream_with_context`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:66 in public function `stream_with_context`:
+        D400: First line should end with a period (not 't')
+src/flask/helpers.py:152 in public function `make_response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:152 in public function `make_response`:
+        D400: First line should end with a period (not 'e')
+src/flask/helpers.py:282 in public function `abort`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:282 in public function `abort`:
+        D400: First line should end with a period (not 'n')
+src/flask/helpers.py:305 in public function `get_template_attribute`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:305 in public function `get_template_attribute`:
+        D400: First line should end with a period (not 'o')
+src/flask/helpers.py:305 in public function `get_template_attribute`:
+        D401: First line should be in imperative mood (perhaps 'Load', not 'Loads')
+src/flask/helpers.py:327 in public function `flash`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:327 in public function `flash`:
+        D400: First line should end with a period (not 'e')
+src/flask/helpers.py:363 in public function `get_flashed_messages`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:363 in public function `get_flashed_messages`:
+        D401: First line should be in imperative mood (perhaps 'Pull', not 'Pulls')
+src/flask/helpers.py:588 in public function `get_root_path`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/helpers.py:588 in public function `get_root_path`:
+        D400: First line should end with a period (not 'a')
+src/flask/helpers.py:655 in private class `_CollectErrors`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/__main__.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/views.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/views.py:17 in public class `View`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/views.py:17 in public class `View`:
+        D400: First line should end with a period (not 'o')
+src/flask/views.py:79 in public method `dispatch_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/views.py:79 in public method `dispatch_request`:
+        D400: First line should end with a period (not 'e')
+src/flask/views.py:79 in public method `dispatch_request`:
+        D401: First line should be in imperative mood; try rephrasing (found 'The')
+src/flask/views.py:89 in public method `as_view`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/views.py:89 in public method `as_view`:
+        D400: First line should end with a period (not 'd')
+src/flask/views.py:139 in public class `MethodView`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/views.py:165 in public method `__init_subclass__`:
+        D105: Missing docstring in magic method
+src/flask/views.py:182 in public method `dispatch_request`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/sansio/blueprints.py:35 in public class `BlueprintSetupState`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:35 in public class `BlueprintSetupState`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/blueprints.py:41 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/sansio/blueprints.py:94 in public method `add_url_rule`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:94 in public method `add_url_rule`:
+        D400: First line should end with a period (not ')')
+src/flask/sansio/blueprints.py:94 in public method `add_url_rule`:
+        D401: First line should be in imperative mood; try rephrasing (found 'A')
+src/flask/sansio/blueprints.py:120 in public class `Blueprint`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:120 in public class `Blueprint`:
+        D400: First line should end with a period (not 'r')
+src/flask/sansio/blueprints.py:174 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/sansio/blueprints.py:225 in public method `record`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:225 in public method `record`:
+        D400: First line should end with a period (not 's')
+src/flask/sansio/blueprints.py:225 in public method `record`:
+        D401: First line should be in imperative mood (perhaps 'Register', not 'Registers')
+src/flask/sansio/blueprints.py:234 in public method `record_once`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:234 in public method `record_once`:
+        D400: First line should end with a period (not 'r')
+src/flask/sansio/blueprints.py:249 in public method `make_setup_state`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:249 in public method `make_setup_state`:
+        D400: First line should end with a period (not '`')
+src/flask/sansio/blueprints.py:249 in public method `make_setup_state`:
+        D401: First line should be in imperative mood (perhaps 'Create', not 'Creates')
+src/flask/sansio/blueprints.py:257 in public method `register_blueprint`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:257 in public method `register_blueprint`:
+        D400: First line should end with a period (not 'd')
+src/flask/sansio/blueprints.py:274 in public method `register`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:274 in public method `register`:
+        D400: First line should end with a period (not 'l')
+src/flask/sansio/blueprints.py:274 in public method `register`:
+        D401: First line should be in imperative mood (perhaps 'Call', not 'Called')
+src/flask/sansio/blueprints.py:421 in public method `add_url_rule`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:421 in public method `add_url_rule`:
+        D400: First line should end with a period (not 'r')
+src/flask/sansio/blueprints.py:444 in public method `app_template_filter`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:446 in public method `app_template_filter`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:453 in public method `app_template_filter`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:453 in public method `app_template_filter`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/blueprints.py:498 in public method `app_template_test`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:500 in public method `app_template_test`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:507 in public method `app_template_test`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:507 in public method `app_template_test`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/blueprints.py:556 in public method `app_template_global`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:558 in public method `app_template_global`:
+        D102: Missing docstring in public method
+src/flask/sansio/blueprints.py:565 in public method `app_template_global`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:565 in public method `app_template_global`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/blueprints.py:615 in public method `before_app_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:615 in public method `before_app_request`:
+        D400: First line should end with a period (not 'd')
+src/flask/sansio/blueprints.py:625 in public method `after_app_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:625 in public method `after_app_request`:
+        D400: First line should end with a period (not 'd')
+src/flask/sansio/blueprints.py:635 in public method `teardown_app_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:635 in public method `teardown_app_request`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/blueprints.py:647 in public method `app_context_processor`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:647 in public method `app_context_processor`:
+        D400: First line should end with a period (not 't')
+src/flask/sansio/blueprints.py:659 in public method `app_errorhandler`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:659 in public method `app_errorhandler`:
+        D400: First line should end with a period (not 'y')
+src/flask/sansio/blueprints.py:676 in public method `app_url_value_preprocessor`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:676 in public method `app_url_value_preprocessor`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/blueprints.py:686 in public method `app_url_defaults`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/blueprints.py:686 in public method `app_url_defaults`:
+        D400: First line should end with a period (not 'y')
+src/flask/sansio/app.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/sansio/app.py:60 in public class `App`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:60 in public class `App`:
+        D400: First line should end with a period (not 'l')
+src/flask/sansio/app.py:279 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/sansio/app.py:424 in public method `name`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:424 in public method `name`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:441 in public method `logger`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:441 in public method `logger`:
+        D400: First line should end with a period (not 'h')
+src/flask/sansio/app.py:476 in public method `create_jinja_environment`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:480 in public method `make_config`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:480 in public method `make_config`:
+        D401: First line should be in imperative mood (perhaps 'Use', not 'Used')
+src/flask/sansio/app.py:496 in public method `make_aborter`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:496 in public method `make_aborter`:
+        D400: First line should end with a period (not 't')
+src/flask/sansio/app.py:508 in public method `auto_find_instance_path`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:508 in public method `auto_find_instance_path`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:508 in public method `auto_find_instance_path`:
+        D401: First line should be in imperative mood (perhaps 'Try', not 'Tries')
+src/flask/sansio/app.py:521 in public method `create_global_jinja_loader`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:521 in public method `create_global_jinja_loader`:
+        D400: First line should end with a period (not 'o')
+src/flask/sansio/app.py:521 in public method `create_global_jinja_loader`:
+        D401: First line should be in imperative mood (perhaps 'Create', not 'Creates')
+src/flask/sansio/app.py:534 in public method `select_jinja_autoescape`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:534 in public method `select_jinja_autoescape`:
+        D400: First line should end with a period (not 'n')
+src/flask/sansio/app.py:534 in public method `select_jinja_autoescape`:
+        D401: First line should be in imperative mood (perhaps 'Return', not 'Returns')
+src/flask/sansio/app.py:551 in public method `debug`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:551 in public method `debug`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:571 in public method `register_blueprint`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:571 in public method `register_blueprint`:
+        D400: First line should end with a period (not 'd')
+src/flask/sansio/app.py:598 in public method `iter_blueprints`:
+        D401: First line should be in imperative mood (perhaps 'Iterate', not 'Iterates')
+src/flask/sansio/app.py:605 in public method `add_url_rule`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:664 in public method `template_filter`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:666 in public method `template_filter`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:673 in public method `template_filter`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:673 in public method `template_filter`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:714 in public method `template_test`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:716 in public method `template_test`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:723 in public method `template_test`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:723 in public method `template_test`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:773 in public method `template_global`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:775 in public method `template_global`:
+        D102: Missing docstring in public method
+src/flask/sansio/app.py:782 in public method `template_global`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:782 in public method `template_global`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:828 in public method `teardown_appcontext`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:828 in public method `teardown_appcontext`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/app.py:828 in public method `teardown_appcontext`:
+        D401: First line should be in imperative mood (perhaps 'Register', not 'Registers')
+src/flask/sansio/app.py:861 in public method `shell_context_processor`:
+        D401: First line should be in imperative mood (perhaps 'Register', not 'Registers')
+src/flask/sansio/app.py:871 in private method `_find_error_handler`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:871 in private method `_find_error_handler`:
+        D400: First line should end with a period (not ':')
+src/flask/sansio/app.py:894 in public method `trap_http_exception`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:894 in public method `trap_http_exception`:
+        D400: First line should end with a period (not 't')
+src/flask/sansio/app.py:894 in public method `trap_http_exception`:
+        D401: First line should be in imperative mood (perhaps 'Check', not 'Checks')
+src/flask/sansio/app.py:961 in public method `inject_url_defaults`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:961 in public method `inject_url_defaults`:
+        D400: First line should end with a period (not 'o')
+src/flask/sansio/app.py:984 in public method `handle_url_build_error`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/app.py:984 in public method `handle_url_build_error`:
+        D400: First line should end with a period (not 'a')
+src/flask/sansio/app.py:984 in public method `handle_url_build_error`:
+        D401: First line should be in imperative mood (perhaps 'Call', not 'Called')
+src/flask/sansio/scaffold.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/sansio/scaffold.py:42 in public function `setupmethod`:
+        D103: Missing docstring in public function
+src/flask/sansio/scaffold.py:53 in public class `Scaffold`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:53 in public class `Scaffold`:
+        D400: First line should end with a period (not 'd')
+src/flask/sansio/scaffold.py:75 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/sansio/scaffold.py:217 in public method `__repr__`:
+        D105: Missing docstring in magic method
+src/flask/sansio/scaffold.py:225 in public method `static_folder`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:225 in public method `static_folder`:
+        D400: First line should end with a period (not '`')
+src/flask/sansio/scaffold.py:273 in public method `jinja_loader`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:273 in public method `jinja_loader`:
+        D400: First line should end with a period (not 's')
+src/flask/sansio/scaffold.py:337 in public method `route`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:337 in public method `route`:
+        D400: First line should end with a period (not 'L')
+src/flask/sansio/scaffold.py:376 in public method `add_url_rule`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:376 in public method `add_url_rule`:
+        D400: First line should end with a period (not 'g')
+src/flask/sansio/scaffold.py:437 in public method `endpoint`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:437 in public method `endpoint`:
+        D400: First line should end with a period (not 'n')
+src/flask/sansio/scaffold.py:509 in public method `teardown_request`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:509 in public method `teardown_request`:
+        D400: First line should end with a period (not 's')
+src/flask/sansio/scaffold.py:546 in public method `context_processor`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:546 in public method `context_processor`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/scaffold.py:546 in public method `context_processor`:
+        D401: First line should be in imperative mood (perhaps 'Register', not 'Registers')
+src/flask/sansio/scaffold.py:563 in public method `url_value_preprocessor`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:563 in public method `url_value_preprocessor`:
+        D400: First line should end with a period (not 'w')
+src/flask/sansio/scaffold.py:585 in public method `url_defaults`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:585 in public method `url_defaults`:
+        D400: First line should end with a period (not 'e')
+src/flask/sansio/scaffold.py:585 in public method `url_defaults`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Callback')
+src/flask/sansio/scaffold.py:647 in public method `register_error_handler`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:647 in public method `register_error_handler`:
+        D400: First line should end with a period (not '`')
+src/flask/sansio/scaffold.py:660 in private method `_get_exc_class_and_code`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:660 in private method `_get_exc_class_and_code`:
+        D400: First line should end with a period (not 's')
+src/flask/sansio/scaffold.py:702 in private function `_endpoint_from_view_func`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:702 in private function `_endpoint_from_view_func`:
+        D400: First line should end with a period (not 'n')
+src/flask/sansio/scaffold.py:702 in private function `_endpoint_from_view_func`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Internal')
+src/flask/sansio/scaffold.py:755 in public function `find_package`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/sansio/scaffold.py:755 in public function `find_package`:
+        D400: First line should end with a period (not 'h')
+src/flask/json/provider.py:1 at module level:
+        D100: Missing docstring in public module
+src/flask/json/provider.py:20 in public class `JSONProvider`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/provider.py:20 in public class `JSONProvider`:
+        D400: First line should end with a period (not 's')
+src/flask/json/provider.py:38 in public method `__init__`:
+        D107: Missing docstring in __init__
+src/flask/json/provider.py:90 in public method `response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/provider.py:90 in public method `response`:
+        D400: First line should end with a period (not 'a')
+src/flask/json/provider.py:125 in public class `DefaultJSONProvider`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/provider.py:125 in public class `DefaultJSONProvider`:
+        D400: First line should end with a period (not '`')
+src/flask/json/provider.py:190 in public method `response`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/provider.py:190 in public method `response`:
+        D400: First line should end with a period (not 'a')
+src/flask/json/__init__.py:1 at module level:
+        D104: Missing docstring in public package
+src/flask/json/__init__.py:139 in public function `jsonify`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/__init__.py:139 in public function `jsonify`:
+        D400: First line should end with a period (not 'a')
+src/flask/json/tag.py:1 at module level:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/tag.py:1 at module level:
+        D400: First line should end with a period (not 'N')
+src/flask/json/tag.py:78 in public method `to_json`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/tag.py:78 in public method `to_json`:
+        D209: Multi-line docstring closing quotes should be on a separate line
+src/flask/json/tag.py:83 in public method `to_python`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/tag.py:83 in public method `to_python`:
+        D209: Multi-line docstring closing quotes should be on a separate line
+src/flask/json/tag.py:83 in public method `to_python`:
+        D400: First line should end with a period (not 'g')
+src/flask/json/tag.py:88 in public method `tag`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/tag.py:88 in public method `tag`:
+        D209: Multi-line docstring closing quotes should be on a separate line
+src/flask/json/tag.py:88 in public method `tag`:
+        D400: First line should end with a period (not 'e')
+src/flask/json/tag.py:103 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:110 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:114 in public method `to_python`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:119 in public class `PassDict`:
+        D101: Missing docstring in public class
+src/flask/json/tag.py:122 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:125 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:133 in public class `TagTuple`:
+        D101: Missing docstring in public class
+src/flask/json/tag.py:137 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:140 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:143 in public method `to_python`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:147 in public class `PassList`:
+        D101: Missing docstring in public class
+src/flask/json/tag.py:150 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:153 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:159 in public class `TagBytes`:
+        D101: Missing docstring in public class
+src/flask/json/tag.py:163 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:166 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:169 in public method `to_python`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:174 in public class `TagMarkup`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/tag.py:174 in public class `TagMarkup`:
+        D209: Multi-line docstring closing quotes should be on a separate line
+src/flask/json/tag.py:174 in public class `TagMarkup`:
+        D400: First line should end with a period (not 'y')
+src/flask/json/tag.py:181 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:184 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:187 in public method `to_python`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:191 in public class `TagUUID`:
+        D101: Missing docstring in public class
+src/flask/json/tag.py:195 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:198 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:201 in public method `to_python`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:205 in public class `TagDateTime`:
+        D101: Missing docstring in public class
+src/flask/json/tag.py:209 in public method `check`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:212 in public method `to_json`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:215 in public method `to_python`:
+        D102: Missing docstring in public method
+src/flask/json/tag.py:220 in public class `TaggedJSONSerializer`:
+        D205: 1 blank line required between summary line and description (found 0)
+src/flask/json/tag.py:220 in public class `TaggedJSONSerializer`:
+        D400: First line should end with a period (not 't')
+src/flask/json/tag.py:249 in public method `__init__`:
+        D107: Missing docstring in __init__
